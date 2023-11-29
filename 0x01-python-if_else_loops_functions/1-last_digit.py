@@ -3,6 +3,8 @@ import random
 number = random.randint(-10000, 10000)
 final = int(str(number)[-1])
 greet = " "
+if number < 0:
+    final = -final
 if (final > 5):
     greet = "and is greater than 5"
 elif (final == 0):
