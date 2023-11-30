@@ -1,3 +1,0 @@
-#!/usr/bin/python
-def is_lower():
-    if ord(c) >= 97 or orord(c) <=122
