@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-final = int(str(number)[-1])
+final = abs(number) % 10
 greet = " "
 if number < 0:
     final = -final
