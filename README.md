@@ -1,1 +1,1 @@
-This repository contains ALX-program exercises that employ python, a language with a deep sense of abstraction
+0x02. Python - import & modules
