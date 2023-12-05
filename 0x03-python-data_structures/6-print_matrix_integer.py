@@ -2,7 +2,7 @@
 
 def print_matrix_integer(matrix=[[]]):
     """function that prints a matrix of integers"""
-    for i in len(maxtrix):
+    for i in len(matrix):
         for j in len(matrix[i]):
             print("{}".format(matrix[i][j]), end="")
             if j != (len(matrix[i]) - 1):
