@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 
 def new_in_list(my_list, idx, element):
-    """function that replaces an element in a list at a specific position without modifying the original list"""
+    """function that replaces an element in a list at a
+    specific position without modifying the original list"""
     if idx < 0 and idx > (len(my_list) - 1):
         return (my_list)
     
     _cpy = [x for x in my_list]
     _cpy[idx] = element
-    return _cpy
+    return (_cpy)
