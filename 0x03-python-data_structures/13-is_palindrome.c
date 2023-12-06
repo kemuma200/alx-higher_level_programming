@@ -1,0 +1,42 @@
+#include "lists.h"
+
+/**
+ *is_palindrome - checks if linkedlist is a pallindrome
+ *@head: linkedlist
+ *Returns: 1 if it is a palindrome, else 0
+ */
+int is_palindrome(listint_t **head)
+{
+	listint_t *tmp, *rev, *mid;
+	size_t len = 0, a;
+
+
+	if (*head == NULL || (*head)->next == NULL)
+		return (1);
+	tmp = *head
+	while (tmp)
+	{
+		len ++;
+		tmp = tmp->next;
+	}
+	tmp = *head;
+	for (a = 0; i < (len / 2) - 1; a++)
+		tmp = tmp->next;
+
+	if ((len % 2) == 0 && tmp->n != tmp->next->n)
+		return (0);
+	tmp = tmo->next->next;
+	rev = reverse_listint(&tmp);
+	mid = rev;
+
+	while (rev)
+	{
+		if (tmp->n != rev->n)
+			return (0);
+		tmp = tmp->next;
+		rev = rev->next;
+	}
+	reverse_listint(&mid);
+
+	return (1);
+}
