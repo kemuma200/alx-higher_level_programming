@@ -1,5 +1,5 @@
 -- Script that creates a table
-CREATE table IF NOT EXISTS second_table (`id` INT, `name` VARCHAR(256), `score` INT);
+CREATE table IF NOT EXISTS `second_table` (`id` INT, `name` VARCHAR(256), `score` INT);
 
 -- Add values
 INSERT INTO `second_table` (`id`, `name`, `score`) VALUES (1, 'John', 10);
